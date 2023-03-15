@@ -7,66 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C423EB1D29732A23006EBF25 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB1C29732A23006EBF25 /* HomeCollectionViewController.swift */; };
+		C423EB1F29732A3B006EBF25 /* HabitsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB1E29732A3B006EBF25 /* HabitsCollectionViewController.swift */; };
+		C423EB2129732A50006EBF25 /* UserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2029732A50006EBF25 /* UserCollectionViewController.swift */; };
+		C423EB2329732A5F006EBF25 /* LogHabitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2229732A5F006EBF25 /* LogHabitCollectionViewController.swift */; };
+		C423EB2529732CAE006EBF25 /* HabitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2429732CAE006EBF25 /* HabitDetailViewController.swift */; };
+		C423EB2729732CD5006EBF25 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2629732CD5006EBF25 /* UserDetailViewController.swift */; };
+		C423EB2929732F02006EBF25 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2829732F02006EBF25 /* Habit.swift */; };
+		C423EB2B29732FF1006EBF25 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2A29732FF1006EBF25 /* Category.swift */; };
+		C423EB2D2973302B006EBF25 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2C2973302B006EBF25 /* Color.swift */; };
+		C423EB2F2973326B006EBF25 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB2E2973326B006EBF25 /* APIRequest.swift */; };
+		C423EB3129738EAE006EBF25 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423EB3029738EAD006EBF25 /* APIService.swift */; };
+		C43CC4622978BCFC00B86F7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CC4612978BCFC00B86F7E /* User.swift */; };
+		C441E7D02980A12A009C733A /* UserStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441E7CF2980A12A009C733A /* UserStatistics.swift */; };
+		C441E7D22980A18D009C733A /* HabitCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441E7D12980A18D009C733A /* HabitCount.swift */; };
+		C462367529AAC8DD00E15694 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462367429AAC8DD00E15694 /* Operations.swift */; };
+		C4762CB629775BC900749395 /* NamedSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762CB529775BC900749395 /* NamedSectionHeaderView.swift */; };
+		C4784DCF29873CD900261564 /* LoggedHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4784DCE29873CD900261564 /* LoggedHabit.swift */; };
+		C47EAEE629A558E5002123B1 /* UserDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EAEE529A558E5002123B1 /* UserDetailCollectionViewCell.swift */; };
+		C47FB8B529887A5E00185F9F /* LeaderboardHabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47FB8B429887A5E00185F9F /* LeaderboardHabitCollectionViewCell.swift */; };
+		C47FB8B72988894A00185F9F /* FollowedUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47FB8B62988894A00185F9F /* FollowedUserCollectionViewCell.swift */; };
+		C47FB8B92988F30500185F9F /* CombinedStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47FB8B82988F30500185F9F /* CombinedStatistics.swift */; };
+		C4D457BD29751B6400D60063 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D457BC29751B6400D60063 /* Settings.swift */; };
 		C4E0284A29722CA800E98599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0284929722CA800E98599 /* AppDelegate.swift */; };
 		C4E0284C29722CA800E98599 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0284B29722CA800E98599 /* SceneDelegate.swift */; };
-		C4E0284E29722CA800E98599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0284D29722CA800E98599 /* ViewController.swift */; };
 		C4E0285129722CA800E98599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E0284F29722CA800E98599 /* Main.storyboard */; };
 		C4E0285329722CAA00E98599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E0285229722CAA00E98599 /* Assets.xcassets */; };
 		C4E0285629722CAA00E98599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E0285429722CAA00E98599 /* LaunchScreen.storyboard */; };
-		C4E0286129722CAA00E98599 /* HabitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0286029722CAA00E98599 /* HabitsTests.swift */; };
-		C4E0286B29722CAA00E98599 /* HabitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0286A29722CAA00E98599 /* HabitsUITests.swift */; };
-		C4E0286D29722CAA00E98599 /* HabitsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0286C29722CAA00E98599 /* HabitsUITestsLaunchTests.swift */; };
+		C4E3A20D299AFD8F0035B3C6 /* BadgeCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E3A20C299AFD8F0035B3C6 /* BadgeCollectionReusableView.swift */; };
+		C4E5696629767400006C2A1D /* UICollectionViewDiffableDataSource+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5696529767400006C2A1D /* UICollectionViewDiffableDataSource+ViewModel.swift */; };
+		C4F8CD94297B515C008B0010 /* HabitStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8CD93297B515C008B0010 /* HabitStatistics.swift */; };
+		C4F8CD96297B51AF008B0010 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8CD95297B51AF008B0010 /* Count.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C4E0285D29722CAA00E98599 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E0283E29722CA800E98599 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4E0284529722CA800E98599;
-			remoteInfo = Habits;
-		};
-		C4E0286729722CAA00E98599 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E0283E29722CA800E98599 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4E0284529722CA800E98599;
-			remoteInfo = Habits;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		C423EB1C29732A23006EBF25 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		C423EB1E29732A3B006EBF25 /* HabitsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsCollectionViewController.swift; sourceTree = "<group>"; };
+		C423EB2029732A50006EBF25 /* UserCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewController.swift; sourceTree = "<group>"; };
+		C423EB2229732A5F006EBF25 /* LogHabitCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHabitCollectionViewController.swift; sourceTree = "<group>"; };
+		C423EB2429732CAE006EBF25 /* HabitDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailViewController.swift; sourceTree = "<group>"; };
+		C423EB2629732CD5006EBF25 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		C423EB2829732F02006EBF25 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		C423EB2A29732FF1006EBF25 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = SOURCE_ROOT; };
+		C423EB2C2973302B006EBF25 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = SOURCE_ROOT; };
+		C423EB2E2973326B006EBF25 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		C423EB3029738EAD006EBF25 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = SOURCE_ROOT; };
+		C43CC4612978BCFC00B86F7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C441E7CF2980A12A009C733A /* UserStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatistics.swift; sourceTree = SOURCE_ROOT; };
+		C441E7D12980A18D009C733A /* HabitCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCount.swift; sourceTree = "<group>"; };
+		C45DE06E29B7AFB2007BE93E /* Habits.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Habits.entitlements; sourceTree = "<group>"; };
+		C462367429AAC8DD00E15694 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = SOURCE_ROOT; };
+		C4762CB529775BC900749395 /* NamedSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedSectionHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		C4784DCE29873CD900261564 /* LoggedHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedHabit.swift; sourceTree = SOURCE_ROOT; };
+		C47EAEE529A558E5002123B1 /* UserDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		C47FB8B429887A5E00185F9F /* LeaderboardHabitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardHabitCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		C47FB8B62988894A00185F9F /* FollowedUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowedUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		C47FB8B82988F30500185F9F /* CombinedStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedStatistics.swift; sourceTree = SOURCE_ROOT; };
+		C4D457BC29751B6400D60063 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = SOURCE_ROOT; };
 		C4E0284629722CA800E98599 /* Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E0284929722CA800E98599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E0284B29722CA800E98599 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4E0284D29722CA800E98599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4E0285029722CA800E98599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E0285229722CAA00E98599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E0285529722CAA00E98599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E0285729722CAA00E98599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4E0285C29722CAA00E98599 /* HabitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E0286029722CAA00E98599 /* HabitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTests.swift; sourceTree = "<group>"; };
-		C4E0286629722CAA00E98599 /* HabitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E0286A29722CAA00E98599 /* HabitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsUITests.swift; sourceTree = "<group>"; };
 		C4E0286C29722CAA00E98599 /* HabitsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4E3A20C299AFD8F0035B3C6 /* BadgeCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCollectionReusableView.swift; sourceTree = SOURCE_ROOT; };
+		C4E5696529767400006C2A1D /* UICollectionViewDiffableDataSource+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewDiffableDataSource+ViewModel.swift"; sourceTree = "<group>"; };
+		C4F8CD93297B515C008B0010 /* HabitStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitStatistics.swift; sourceTree = SOURCE_ROOT; };
+		C4F8CD95297B51AF008B0010 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C4E0284329722CA800E98599 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4E0285929722CAA00E98599 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4E0286329722CAA00E98599 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				C4E0284629722CA800E98599 /* Habits.app */,
-				C4E0285C29722CAA00E98599 /* HabitsTests.xctest */,
-				C4E0286629722CAA00E98599 /* HabitsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +112,36 @@
 		C4E0284829722CA800E98599 /* Habits */ = {
 			isa = PBXGroup;
 			children = (
+				C45DE06E29B7AFB2007BE93E /* Habits.entitlements */,
 				C4E0284929722CA800E98599 /* AppDelegate.swift */,
 				C4E0284B29722CA800E98599 /* SceneDelegate.swift */,
-				C4E0284D29722CA800E98599 /* ViewController.swift */,
 				C4E0284F29722CA800E98599 /* Main.storyboard */,
+				C423EB2829732F02006EBF25 /* Habit.swift */,
+				C43CC4612978BCFC00B86F7E /* User.swift */,
+				C423EB2A29732FF1006EBF25 /* Category.swift */,
+				C423EB2C2973302B006EBF25 /* Color.swift */,
+				C4D457BC29751B6400D60063 /* Settings.swift */,
+				C4F8CD93297B515C008B0010 /* HabitStatistics.swift */,
+				C4F8CD95297B51AF008B0010 /* Count.swift */,
+				C462367429AAC8DD00E15694 /* Operations.swift */,
+				C441E7CF2980A12A009C733A /* UserStatistics.swift */,
+				C441E7D12980A18D009C733A /* HabitCount.swift */,
+				C4784DCE29873CD900261564 /* LoggedHabit.swift */,
+				C423EB2E2973326B006EBF25 /* APIRequest.swift */,
+				C423EB3029738EAD006EBF25 /* APIService.swift */,
+				C423EB1C29732A23006EBF25 /* HomeCollectionViewController.swift */,
+				C423EB1E29732A3B006EBF25 /* HabitsCollectionViewController.swift */,
+				C4762CB529775BC900749395 /* NamedSectionHeaderView.swift */,
+				C4E3A20C299AFD8F0035B3C6 /* BadgeCollectionReusableView.swift */,
+				C423EB2429732CAE006EBF25 /* HabitDetailViewController.swift */,
+				C423EB2029732A50006EBF25 /* UserCollectionViewController.swift */,
+				C47EAEE529A558E5002123B1 /* UserDetailCollectionViewCell.swift */,
+				C423EB2629732CD5006EBF25 /* UserDetailViewController.swift */,
+				C423EB2229732A5F006EBF25 /* LogHabitCollectionViewController.swift */,
+				C4E5696529767400006C2A1D /* UICollectionViewDiffableDataSource+ViewModel.swift */,
+				C47FB8B429887A5E00185F9F /* LeaderboardHabitCollectionViewCell.swift */,
+				C47FB8B62988894A00185F9F /* FollowedUserCollectionViewCell.swift */,
+				C47FB8B82988F30500185F9F /* CombinedStatistics.swift */,
 				C4E0285229722CAA00E98599 /* Assets.xcassets */,
 				C4E0285429722CAA00E98599 /* LaunchScreen.storyboard */,
 				C4E0285729722CAA00E98599 /* Info.plist */,
@@ -147,42 +186,6 @@
 			productReference = C4E0284629722CA800E98599 /* Habits.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4E0285B29722CAA00E98599 /* HabitsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4E0287329722CAA00E98599 /* Build configuration list for PBXNativeTarget "HabitsTests" */;
-			buildPhases = (
-				C4E0285829722CAA00E98599 /* Sources */,
-				C4E0285929722CAA00E98599 /* Frameworks */,
-				C4E0285A29722CAA00E98599 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C4E0285E29722CAA00E98599 /* PBXTargetDependency */,
-			);
-			name = HabitsTests;
-			productName = HabitsTests;
-			productReference = C4E0285C29722CAA00E98599 /* HabitsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C4E0286529722CAA00E98599 /* HabitsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4E0287629722CAA00E98599 /* Build configuration list for PBXNativeTarget "HabitsUITests" */;
-			buildPhases = (
-				C4E0286229722CAA00E98599 /* Sources */,
-				C4E0286329722CAA00E98599 /* Frameworks */,
-				C4E0286429722CAA00E98599 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C4E0286829722CAA00E98599 /* PBXTargetDependency */,
-			);
-			name = HabitsUITests;
-			productName = HabitsUITests;
-			productReference = C4E0286629722CAA00E98599 /* HabitsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +198,6 @@
 				TargetAttributes = {
 					C4E0284529722CA800E98599 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					C4E0285B29722CAA00E98599 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = C4E0284529722CA800E98599;
-					};
-					C4E0286529722CAA00E98599 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = C4E0284529722CA800E98599;
 					};
 				};
 			};
@@ -220,8 +215,6 @@
 			projectRoot = "";
 			targets = (
 				C4E0284529722CA800E98599 /* Habits */,
-				C4E0285B29722CAA00E98599 /* HabitsTests */,
-				C4E0286529722CAA00E98599 /* HabitsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +230,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4E0285A29722CAA00E98599 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4E0286429722CAA00E98599 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,43 +237,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E0284E29722CA800E98599 /* ViewController.swift in Sources */,
+				C423EB1D29732A23006EBF25 /* HomeCollectionViewController.swift in Sources */,
+				C4F8CD96297B51AF008B0010 /* Count.swift in Sources */,
+				C47EAEE629A558E5002123B1 /* UserDetailCollectionViewCell.swift in Sources */,
+				C462367529AAC8DD00E15694 /* Operations.swift in Sources */,
+				C4784DCF29873CD900261564 /* LoggedHabit.swift in Sources */,
+				C423EB2B29732FF1006EBF25 /* Category.swift in Sources */,
+				C4E5696629767400006C2A1D /* UICollectionViewDiffableDataSource+ViewModel.swift in Sources */,
+				C423EB2D2973302B006EBF25 /* Color.swift in Sources */,
+				C423EB2129732A50006EBF25 /* UserCollectionViewController.swift in Sources */,
+				C4D457BD29751B6400D60063 /* Settings.swift in Sources */,
+				C423EB2729732CD5006EBF25 /* UserDetailViewController.swift in Sources */,
+				C47FB8B72988894A00185F9F /* FollowedUserCollectionViewCell.swift in Sources */,
+				C43CC4622978BCFC00B86F7E /* User.swift in Sources */,
+				C441E7D02980A12A009C733A /* UserStatistics.swift in Sources */,
+				C4762CB629775BC900749395 /* NamedSectionHeaderView.swift in Sources */,
+				C47FB8B529887A5E00185F9F /* LeaderboardHabitCollectionViewCell.swift in Sources */,
+				C423EB1F29732A3B006EBF25 /* HabitsCollectionViewController.swift in Sources */,
 				C4E0284A29722CA800E98599 /* AppDelegate.swift in Sources */,
+				C47FB8B92988F30500185F9F /* CombinedStatistics.swift in Sources */,
+				C4F8CD94297B515C008B0010 /* HabitStatistics.swift in Sources */,
+				C441E7D22980A18D009C733A /* HabitCount.swift in Sources */,
+				C423EB2329732A5F006EBF25 /* LogHabitCollectionViewController.swift in Sources */,
+				C423EB2929732F02006EBF25 /* Habit.swift in Sources */,
+				C4E3A20D299AFD8F0035B3C6 /* BadgeCollectionReusableView.swift in Sources */,
+				C423EB3129738EAE006EBF25 /* APIService.swift in Sources */,
+				C423EB2529732CAE006EBF25 /* HabitDetailViewController.swift in Sources */,
+				C423EB2F2973326B006EBF25 /* APIRequest.swift in Sources */,
 				C4E0284C29722CA800E98599 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4E0285829722CAA00E98599 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4E0286129722CAA00E98599 /* HabitsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4E0286229722CAA00E98599 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4E0286B29722CAA00E98599 /* HabitsUITests.swift in Sources */,
-				C4E0286D29722CAA00E98599 /* HabitsUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C4E0285E29722CAA00E98599 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C4E0284529722CA800E98599 /* Habits */;
-			targetProxy = C4E0285D29722CAA00E98599 /* PBXContainerItemProxy */;
-		};
-		C4E0286829722CAA00E98599 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C4E0284529722CA800E98599 /* Habits */;
-			targetProxy = C4E0286729722CAA00E98599 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C4E0284F29722CA800E98599 /* Main.storyboard */ = {
@@ -435,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Habits/Habits.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U7YYU53MN3;
@@ -445,6 +420,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Habits/Habits.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U7YYU53MN3;
@@ -473,6 +450,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,82 +461,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C4E0287429722CAA00E98599 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7YYU53MN3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diegosierra.HabitsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habits";
-			};
-			name = Debug;
-		};
-		C4E0287529722CAA00E98599 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7YYU53MN3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diegosierra.HabitsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habits";
-			};
-			name = Release;
-		};
-		C4E0287729722CAA00E98599 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7YYU53MN3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diegosierra.HabitsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Habits;
-			};
-			name = Debug;
-		};
-		C4E0287829722CAA00E98599 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7YYU53MN3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diegosierra.HabitsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Habits;
 			};
 			name = Release;
 		};
@@ -579,24 +481,6 @@
 			buildConfigurations = (
 				C4E0287129722CAA00E98599 /* Debug */,
 				C4E0287229722CAA00E98599 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4E0287329722CAA00E98599 /* Build configuration list for PBXNativeTarget "HabitsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4E0287429722CAA00E98599 /* Debug */,
-				C4E0287529722CAA00E98599 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4E0287629722CAA00E98599 /* Build configuration list for PBXNativeTarget "HabitsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4E0287729722CAA00E98599 /* Debug */,
-				C4E0287829722CAA00E98599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
